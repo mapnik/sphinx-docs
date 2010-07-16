@@ -12,7 +12,7 @@ Contents
 .. toctree::
    :maxdepth: 1
    
-   Getting Started <one.rst>
+   Getting Started <getting_started.rst>
 
 Indices and tables
 ==================
