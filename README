@@ -5,3 +5,9 @@ Using Sphinx: http://sphinx.pocoo.org/
 If you have contributions or corrections please create an Issue at:
 
 http://github.com/mapnik/sphinx-docs/issues
+
+To get started contributing:
+
+    * install sphinx
+    * edit/add some .rst files
+    * run `make html` in this directory
