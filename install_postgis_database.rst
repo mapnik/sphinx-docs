@@ -123,7 +123,11 @@ Replies with many lines ending with
 
   CREATE OPERATOR CLASS
 
+Set SRID for PostGIS Database
+-----------------------------
+
 Set the Spatial Reference Identifier (SRID) on the new database.
+
 ::
 
   psql -f ~/bin/osm2pgsql/900913.sql -d gis
