@@ -1,4 +1,4 @@
-.. _getting-started:
+.. _install_postgis_database:
 
 Getting Started
 ***************

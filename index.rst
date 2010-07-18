@@ -13,6 +13,8 @@ Contents
    :maxdepth: 1
    
    Getting Started <getting_started.rst>
+   Install PostGIS Database <install_postgis_database.rst>
+   Load PostGIS Database with Initial Geographic Data <load_postgis_database.rst>
 
 Indices and tables
 ==================
