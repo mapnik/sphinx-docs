@@ -1,8 +1,3 @@
-.. .. _getting-started:
-
-.. .. _load_postgis_database:
-
-
 Install PostGIS Database
 ************************
 
@@ -114,7 +109,7 @@ Should reply with
 Enable OpenStreetMap Updates
 ----------------------------
 
-Enable intarray to enable updates through the OpenStreetMap .osc files for daily, hourly and minutely updates.
+This optional step is only required if you plan to use the OpenStreetMap regular data updates.  Enable intarray to enable updates through the OpenStreetMap .osc files for daily, hourly and minutely updates.
 
 ::
 
