@@ -60,9 +60,8 @@ Restart the postgresql database server to enable the configuration changes.
 
 The database server should restart without errors or warnings
 
-  * Restarting PostgreSQL 8.4 database server
-
-    ...done.
+   |  * Restarting PostgreSQL 8.4 database server
+   |    ...done.
 
 Create the Postgresql Database
 ------------------------------
@@ -88,11 +87,9 @@ Apply the PostGIS extensions to the postgresql database.
 
 This should respond with many lines ending with
 
-  ...
-
-  CREATE FUNCTION
-
-  COMMIT
+   |  ...
+   |  CREATE FUNCTION
+   |  COMMIT
 
 Substitute your username for "username" in two places in the next line. This should be the username that will render maps with mapnik.
 
@@ -102,9 +99,8 @@ Substitute your username for "username" in two places in the next line. This sho
 
 Should reply with
 
-  ALTER TABLE
-
-  ALTER TABLE
+   |  ALTER TABLE
+   |  ALTER TABLE
 
 Enable OpenStreetMap Updates
 ----------------------------
@@ -117,11 +113,9 @@ This optional step is only required if you plan to use the OpenStreetMap regular
 
 Replies with many lines ending with
 
-  ...
-
-  CREATE FUNCTION
-
-  CREATE OPERATOR CLASS
+   |  ...
+   |  CREATE FUNCTION
+   |  CREATE OPERATOR CLASS
 
 Set SRID for PostGIS Database
 -----------------------------
@@ -134,7 +128,7 @@ Set the Spatial Reference Identifier (SRID) on the new database.
 
 Should reply with
 
-  INSERT 0 1
+   |  INSERT 0 1
 
 
 
