@@ -28,7 +28,7 @@ This may not be the most recent version of Mapnik, depending on your distributio
 
 
 Install Mapnik Library from Binaries
------------------------------------
+------------------------------------
 
 Windows and MacOSX binaries are available.  See installation instructions for Windows and MacOSX.  
 
@@ -39,7 +39,7 @@ TODO: add installation instructions for Windows
 
 
 Install Latest Stable Mapnik Library from Source
-----------------------------------
+------------------------------------------------
 
 ::
 

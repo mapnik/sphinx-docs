@@ -16,7 +16,7 @@ Contents
    Install PostGIS Database <install_postgis_database.rst>
    Load PostGIS Database with Initial Geographic Data <load_postgis_database.rst>
    Install Mapnik Library Prerequisites <install_mapnik_library_prereq.rst>
-   Install mapnik Library <install_mapnik_library.rst>
+   Install Mapnik Library <install_mapnik_library.rst>
 
 
 Indices and tables
