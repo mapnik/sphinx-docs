@@ -32,9 +32,11 @@ Install Mapnik Library from Binaries
 
 Windows and MacOSX binaries are available.  See installation instructions for Windows and MacOSX.  
 
-TODO: have build server create .deb, .rpm binaries
-TODO: add installtion instructions for MacOSX
-TODO: add installation instructions for Windows
+  TODO: have build server create .deb, .rpm binaries
+
+  TODO: add installtion instructions for MacOSX
+
+  TODO: add installation instructions for Windows
   
 
 
@@ -60,6 +62,7 @@ If Mapnik compiles without errors, confirm that python can find Mapnik.
   >>> import mapnik
   # if python returns the 3-chevron prompt below without errors mapnik was properly detected
   >>> 
+
 
 
 
