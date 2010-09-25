@@ -22,6 +22,26 @@ Pavlenko. First version was released in ...
 Current version is 0.7.1 available for download at
 http://mapnik.org/download/.
 
+Community
+---------
+
+Mapnik community is organized around main site http://mapnik.org and
+development site http://trac.mapnik.org on which you can find latest
+news about Mapnik and its development. Development site is organized
+like a wiki which contains a lot of useful information, and you can
+freely contribute if you `sign up <http://trac.mapnik.org/register>`_.
+
+Also you can ask questions on mailing lists `mapnik-users
+<http://lists.berlios.de/mailman/listinfo/mapnik-users>`_ and if you
+want to help developing Mapnik check out `mapnik-devel
+<http://lists.berlios.de/mailman/listinfo/mapnik-devel>`_. On this
+links you will also find mailing list archive, which you should check
+before asking your question. You can follow mailing lists on `Nabble
+<http://old.nabble.com/Mapnik-f28006.html>`_.
+
+If you like more direct communication you can find us on **#mapnik** at
+irc.freenode.net, feel free to drop in with your question anytime.
+
 Platforms
 ---------
 
@@ -46,7 +66,7 @@ default, are:
 * *raster* - stripped or tiled raster TIFF image dataset support 
 
 Other plugins are not unstable but as they were added later in
-development there could still be some issues:
+development and there could still be some issues:
 
 * *gdal* - support for `GDAL <http://www.gdal.org/formats_list.html>`_
   datasets

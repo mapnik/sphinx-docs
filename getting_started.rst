@@ -59,7 +59,7 @@ Testing Mapnik installation
 
 Easiest way to test if you have successfully installed and configured
 Mapnik is to start up your Python interpreter and try to import mapnik
-library ::
+library: ::
 
    $ python
    Python 2.6.5 (r265:79063, Apr  1 2010, 05:28:39) 
