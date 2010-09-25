@@ -1,5 +1,6 @@
+***************
 Getting Started
-===============
+***************
 
 After reading this document you should be able to create a simple
 rendered map using Python or C++. 
@@ -8,7 +9,7 @@ TODO: add final rendered image
 
 
 What do I need to get started?
-------------------------------
+==============================
 
 First of all you need to install Mapnik library to your system. There
 are to two basic ways to do it, you can either download binaries or
@@ -19,7 +20,7 @@ Installation depends on your operating system and following sections
 describe this process.
 
 Windows installation
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 Installing Mapnik on windows consists of following steps:
 
@@ -30,7 +31,7 @@ Installing Mapnik on windows consists of following steps:
 Each of this steps is explained in detail ..here..!
 
 Linux installation
-^^^^^^^^^^^^^^^^^^
+------------------
 
 Most modern Linux distributions include Mapnik binaries in their
 repositories. Installation method depends your distribution:
@@ -48,14 +49,14 @@ repositories. Installation method depends your distribution:
   # pacman -S mapnik
 
 MacOSX installation
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
 Dane Springmeyer kindly hosts and builds MacOSX Mapnik binaries, you
 can find more information on his download page
 http://dbsgeo.com/downloads/.
 
 Testing Mapnik installation
----------------------------
+===========================
 
 Easiest way to test if you have successfully installed and configured
 Mapnik is to start up your Python interpreter and try to import mapnik

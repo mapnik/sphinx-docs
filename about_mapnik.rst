@@ -1,6 +1,7 @@
 
+******
 Mapnik
-======
+******
 
 Mapnik is about making beautiful maps. It uses the `AGG library
 <http://www.antigrain.com/>`_ or `Cairo library
@@ -13,8 +14,9 @@ parsing and so on, Mapnik doesn't re-invent the wheel, but utilizes
 best of breed industry standard libraries from http://boost.org.
 
 
+
 History
--------
+=======
 
 Mapnik was started in a warm June afternoon in 2005 by Artem
 Pavlenko. First version was released in ...
@@ -22,8 +24,9 @@ Pavlenko. First version was released in ...
 Current version is 0.7.1 available for download at
 http://mapnik.org/download/.
 
+
 Community
----------
+=========
 
 Mapnik community is organized around main site http://mapnik.org and
 development site http://trac.mapnik.org on which you can find latest
@@ -43,7 +46,7 @@ If you like more direct communication you can find us on **#mapnik** at
 irc.freenode.net, feel free to drop in with your question anytime.
 
 Platforms
----------
+=========
 
 Mapnik is a cross platform toolkit that runs on Windows, Mac, and
 Linux (since release 0.4). Users commonly run Mapnik on Mac >=10.4.x
@@ -51,7 +54,7 @@ Linux (since release 0.4). Users commonly run Mapnik on Mac >=10.4.x
 OpenSuse, and FreeBSD. 
 
 Supported data formats
-----------------------
+======================
 
 Mapnik uses a plugin architecture to read different
 datasources. Current plugins which are considered stable, and built by
@@ -91,7 +94,7 @@ cannot wait and/or like coding in C++, why not write your own data
 access plug-in?
 
 Future
-------
+======
 
 Large number of developers and contributors are actively developing
 *mapnik2* which will become **0.8.0**. Also, version **0.7.2** is

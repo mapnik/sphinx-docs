@@ -1,8 +1,9 @@
+************************************
 Install Mapnik Library Prerequisites
 ************************************
 
 Install Boost Libraries from Packages
--------------------------------------
+=====================================
 
 Is everything up to date on your system?  
 
@@ -35,11 +36,3 @@ Install Boost development libraries
   sudo aptitude install libboost-program-options1.40-dev 
 
  
-
-
-
-
-
-
-
-

@@ -3,6 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+====================
 Mapnik documentation
 ====================
 
@@ -15,21 +16,22 @@ algorithms/patterns for spatial data access and visualization. It can
 comfortably be used for both desktop and web development enabling
 fast-paced agile development.
 
-
+========
 Contents
 ========
 
 .. toctree::
-   :maxdepth: 1
-   
-   About Mapnik <about_mapnik.rst>
+   :maxdepth: 2
+   :numbered:
+
+   about_mapnik.rst
    Getting Started <getting_started.rst>
    Install PostGIS Database <install_postgis_database.rst>
    Load PostGIS Database with Initial Geographic Data <load_postgis_database.rst>
    Install Mapnik Library Prerequisites <install_mapnik_library_prereq.rst>
    Install Mapnik Library <install_mapnik_library.rst>
 
-
+==================
 Indices and tables
 ==================
 

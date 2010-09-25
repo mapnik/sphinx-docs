@@ -1,8 +1,9 @@
+************************
 Install PostGIS Database
 ************************
 
 Install Postgresql and PostGIS
-------------------------------
+==============================
 
 Is everything up to date on your system?  
 
@@ -11,19 +12,23 @@ Is everything up to date on your system?
   sudo aptitude update
   sudo aptitude safe-upgrade
 
-Install Postgresql and the PostGIS extensions to enable geographical queries.  
+Install Postgresql and the PostGIS extensions to enable geographical
+queries.
 
 ::
 
   sudo aptitude install postgresql-8.4-postgis postgresql-contrib-8.4
-  sudo aptitude install postgresql-server-dev-8.4
-  sudo aptitude install build-essential libxml2-dev
+  sudo aptitude install postgresql-server-dev-8.4 
+  sudo aptitude install build-essential libxml2-dev 
   sudo aptitude install libgeos-dev libpq-dev libbz2-dev proj
  
 Configure the Postgresql Server
--------------------------------
+===============================
 
-Edit the configuration file at /etc/postgresql/8.4/main/postgresql.conf to set some resonable defaults.  These changes help when dealing with large quantities of data that are found in geographic some databases.
+Edit the configuration file at
+/etc/postgresql/8.4/main/postgresql.conf to set some resonable
+defaults.  These changes help when dealing with large quantities of
+data that are found in geographic some databases.
 
 These edits are found in four places in the configuration file. 
 
@@ -35,7 +40,7 @@ These edits are found in four places in the configuration file.
   autovacuum = off
 
 Configure runtime kernel parameters
------------------------------------
+===================================
 
 Edit /etc/sysctl.conf to set kernel parameters after a restart.  
 
@@ -50,9 +55,10 @@ Then apply the same kernel parameter now, without restarting.
   sudo sysctl kernel.shmmax=268435456
 
 Restart the Postgresql Server
------------------------------
+=============================
 
-Restart the postgresql database server to enable the configuration changes.  
+Restart the postgresql database server to enable the configuration
+changes.
 
 ::
 
@@ -64,9 +70,12 @@ The database server should restart without errors or warnings
    |    ...done.
 
 Create the Postgresql Database
-------------------------------
+==============================
 
-Create a database called "gis". Some of our future tools presume that you will use this database name. Substitute your username for "username"  in two places below. This should be the username that will render maps with mapnik.
+Create a database called "gis". Some of our future tools presume that
+you will use this database name. Substitute your username for
+"username" in two places below. This should be the username that will
+render maps with mapnik.
 
 :: 
 
@@ -77,7 +86,7 @@ Create a database called "gis". Some of our future tools presume that you will u
   exit
 
 Apply the PostGIS Extensions to the Database
---------------------------------------------
+============================================
 
 Apply the PostGIS extensions to the postgresql database.
 
@@ -91,11 +100,13 @@ This should respond with many lines ending with
    |  CREATE FUNCTION
    |  COMMIT
 
-Substitute your username for "username" in two places in the next line. This should be the username that will render maps with mapnik.
+Substitute your username for "username" in two places in the next
+line. This should be the username that will render maps with mapnik.
 
 ::
 
-  echo "ALTER TABLE geometry_columns OWNER TO username; ALTER TABLE spatial_ref_sys OWNER TO username;" | psql -d gis
+  echo "ALTER TABLE geometry_columns OWNER TO username; ALTER TABLE
+  spatial_ref_sys OWNER TO username;" | psql -d gis
 
 Should reply with
 
@@ -103,9 +114,12 @@ Should reply with
    |  ALTER TABLE
 
 Enable OpenStreetMap Updates
-----------------------------
+============================
 
-This optional step is only required if you plan to use the OpenStreetMap regular data updates.  Enable intarray to enable updates through the OpenStreetMap .osc files for daily, hourly and minutely updates.
+This optional step is only required if you plan to use the
+OpenStreetMap regular data updates.  Enable intarray to enable updates
+through the OpenStreetMap .osc files for daily, hourly and minutely
+updates.
 
 ::
 
@@ -118,7 +132,7 @@ Replies with many lines ending with
    |  CREATE OPERATOR CLASS
 
 Set SRID for PostGIS Database
------------------------------
+=============================
 
 Set the Spatial Reference Identifier (SRID) on the new database.
 

@@ -1,7 +1,9 @@
+**********************
 Install Mapnik Library
 **********************
 
-The Mapnik Library can be installed in several ways, choose only one of:
+The Mapnik Library can be installed in several ways, choose only one
+of:
 
 - Install from your package manager
 - Install from binaries
@@ -18,9 +20,10 @@ Is everything up to date on your system?
 
 
 Install Mapnik Library from Package Manager
--------------------------------------------
+===========================================
 
-This may not be the most recent version of Mapnik, depending on your distribution.
+This may not be the most recent version of Mapnik, depending on your
+distribution.
 
 ::
 
@@ -28,9 +31,10 @@ This may not be the most recent version of Mapnik, depending on your distributio
 
 
 Install Mapnik Library from Binaries
-------------------------------------
+====================================
 
-Windows and MacOSX binaries are available.  See installation instructions for Windows and MacOSX.  
+Windows and MacOSX binaries are available.  See installation
+instructions for Windows and MacOSX.
 
   TODO: have build server create .deb, .rpm binaries
 
@@ -41,7 +45,7 @@ Windows and MacOSX binaries are available.  See installation instructions for Wi
 
 
 Install Latest Stable Mapnik Library from Source
-------------------------------------------------
+================================================
 
 ::
 
@@ -54,7 +58,8 @@ Install Latest Stable Mapnik Library from Source
   sudo python scons/scons.py install
   sudo ldconfig
 
-If Mapnik compiles without errors, confirm that python can find Mapnik.
+If Mapnik compiles without errors, confirm that python can find
+Mapnik.
 
 ::  
  
@@ -62,11 +67,6 @@ If Mapnik compiles without errors, confirm that python can find Mapnik.
   >>> import mapnik
   # if python returns the 3-chevron prompt below without errors mapnik was properly detected
   >>> 
-
-
-
-
-
 
 
 
