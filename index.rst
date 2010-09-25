@@ -6,12 +6,23 @@
 Mapnik documentation
 ====================
 
+Mapnik is a cross platform C++/Python toolkit for developing mapping
+applications. Mapnik is a `free software
+<http://www.fsf.org/licensing/essays/free-sw.html>`_ and is released
+under `LGPL <http://www.fsf.org/licensing/licenses/lgpl.txt>`_ (Lesser
+General Public Licence). At the core is a C++ shared library providing
+algorithms/patterns for spatial data access and visualization. It can
+comfortably be used for both desktop and web development enabling
+fast-paced agile development.
+
+
 Contents
 ========
 
 .. toctree::
    :maxdepth: 1
    
+   About Mapnik <about_mapnik.rst>
    Getting Started <getting_started.rst>
    Install PostGIS Database <install_postgis_database.rst>
    Load PostGIS Database with Initial Geographic Data <load_postgis_database.rst>
