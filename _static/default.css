@@ -278,6 +278,7 @@ h1 {
     padding: 0.7em 0 0.3em 0;
     font-size: 2em;
     color: #11557c;
+    line-height:1.2em;
 }
 
 h2 {
@@ -285,12 +286,14 @@ h2 {
     margin: 1.3em 0 0.2em 0;
     font-size: 1.7em;
     padding: 0;
+    line-height:1.2em;
 }
 
 h3 {
     color: #11557c;
     margin: 1em 0 -0.3em 0;
     font-size: 1.2em;
+    line-height:1.2em;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
