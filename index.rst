@@ -21,8 +21,7 @@ Contents
 ========
 
 .. toctree::
-   :maxdepth: 2
-   :numbered:
+   :maxdepth: 1
 
    about_mapnik.rst
    Getting Started <getting_started.rst>
@@ -37,4 +36,14 @@ Indices and tables
 
 * :ref:`genindex`
 * :ref:`search`
+
+
+================================
+Documentation writing guidelines
+================================
+
+.. toctree::
+   :maxdepth: 1
+   
+   documentation_guidelines.rst
 
